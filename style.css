@@ -1,0 +1,69 @@
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    gap: 10px;
+}
+
+.content {
+    display: flex;
+}
+
+.quote {
+    display: flex;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.ad {
+    display: flex;
+    background-color: #3882F6;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+}
+
+button {
+    color: #3882F6;
+}
+
+.logo p {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.header p, .header a{
+    font-size: 18px;
+    color: #E5E7EB;
+}
