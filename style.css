@@ -9,6 +9,11 @@
     background-color: #1F2937;
 }
 
+.header-info {
+    display: flex;
+    justify-content: space-between;
+}
+
 .nav {
     display: flex;
     justify-content: space-between;
